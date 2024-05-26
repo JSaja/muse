@@ -107,3 +107,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# SQLite Cache
+cache
+db.sqlite
+
+# IDE
+.devcontainer

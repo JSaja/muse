@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  muse:
+    image: codetheweb/muse:latest
+    working_dir: /usr/app/
+    restart: always
+    volumes:
+      - ./muse:/data
+    mem_limit:  2G
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN:-""}
+      - YOUTUBE_API_KEY=${YOUTUBE_API_KEY:-""}
+      - SPOTIFY_CLIENT_ID=${SPOTIFY_CLIENT_ID:-""}
+      - SPOTIFY_CLIENT_SECRET=${SPOTIFY_CLIENT_SECRET:-""}
+      - BOT_STATUS=${BOT_STATUS:-online}
