@@ -1,0 +1,30 @@
+{
+    "files.exclude": {
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+    },
+    "git.ignoredRepositories": ["/tmp/"],
+    
+    "editor.rulers": [
+        100
+    ],
+    "debug.allowBreakpointsEverywhere": true,
+
+    // Terminal Customizations
+    "terminal.integrated.fontFamily": "'Monospace 11', 'PowerlineSymbols'",
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.minimumContrastRatio": 1,
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#D3D7CF",
+        "terminal.background": "#34363D",
+        "terminal.ansiGreen": "#B1F1C0",
+        "terminal.ansiBrightBlue": "#23BAFB",
+        "terminal.ansiBrightGreen": "#85dd4e",
+        "terminal.ansiYellow": "#FCE94F",
+        "terminal.ansiRed": "#ff6565",
+        "terminal.ansiBlue": "#b398f2"
+    },
+}
